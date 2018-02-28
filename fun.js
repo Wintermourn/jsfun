@@ -1,11 +1,4 @@
-var loller = 0;
-function relolg() {
-loller = Math.random()*100;
+function rand(min, max) {
+  return Math.random()* (max-min);
 }
-function silly() {
-  relolg();
-  if (loller > 300) {
-    console.log(loller);
-  }
-}
-silly();
+console.log(rand(5,20));
